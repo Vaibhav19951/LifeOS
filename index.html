@@ -1,62 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifeOS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/dashboard.css">
+<title>LifeOS</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/dashboard.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
 </head>
+
 <body>
 
-    <div class="background"></div>
+<div class="bg1"></div>
+<div class="bg2"></div>
 
-    <div class="container">
+<div class="app">
 
-        <header>
-            <h1>🌟 LifeOS</h1>
-            <p class="welcome">Welcome Back, Vaibhav 👋</p>
-        </header>
+<!-- ========================= -->
+<!-- Sidebar -->
+<!-- ========================= -->
 
-        <main class="cards">
+<aside class="sidebar">
 
-            <a href="pages/weight.html" class="card">
-                <h2>⚖️ Weight</h2>
-                <p>53 kg</p>
-            </a>
+<div class="logo">
 
-            <a href="pages/water.html" class="card">
-                <h2>💧 Water</h2>
-                <p>2 / 4 L</p>
-            </a>
+<i class="fa-solid fa-heart-pulse"></i>
 
-            <a href="pages/sleep.html" class="card">
-                <h2>😴 Sleep</h2>
-                <p>7 Hours</p>
-            </a>
+<span>LifeOS</span>
 
-            <a href="pages/gym.html" class="card">
-                <h2>🏋️ Gym</h2>
-                <p>Completed ✅</p>
-            </a>
+</div>
 
-            <a href="pages/mood.html" class="card">
-                <h2>😊 Mood</h2>
-                <p>8 / 10</p>
-            </a>
+<nav>
 
-            <a href="pages/settings.html" class="card">
-                <h2>⚙️ Settings</h2>
-                <p>Customize</p>
-            </a>
+<a href="#" class="active">
 
-        </main>
+<i class="fa-solid fa-house"></i>
 
+<span>Dashboard</span>
+
+</a>
+
+<a href="pages/water.html">
+
+<i class="fa-solid fa-glass-water"></i>
+
+<span>Water</span>
+
+</a>
+
+<a href="pages/weight.html">
+
+<i class="fa-solid fa-weight-scale"></i>
+
+<span>Weight</span>
+
+</a>
+
+<a href="pages/gym.html">
+
+<i class="fa-solid fa-dumbbell"></i>
+
+<span>Gym</span>
+
+</a>
+
+<a href="pages/sleep.html">
+
+<i class="fa-solid fa-bed"></i>
+
+<span>Sleep</span>
+
+</a>
+
+<a href="pages/mood.html">
+
+<i class="fa-solid fa-face-smile"></i>
+
+<span>Mood</span>
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<span>Analytics</span>
+
+</a>
+
+<a href="pages/settings.html">
+
+<i class="fa-solid fa-gear"></i>
+
+<span>Settings</span>
+
+</a>
+
+</nav>
+
+</aside>
+
+<!-- ========================= -->
+<!-- Main -->
+<!-- ========================= -->
+
+<main class="main">
+
+<header>
+
+<div>
+
+<h1>Hello Vaibhav 👋</h1>
+
+<p>Welcome back to LifeOS</p>
+
+</div>
+
+<div class="profile">
+
+<div class="level">
+
+🔥 Level 5
+
+</div>
+
+</div>
+
+</header>
+
+<section class="cards">
+    <!-- Card 1 -->
+
+<div class="card water">
+
+<div class="icon">
+
+<i class="fa-solid fa-glass-water"></i>
+
+</div>
+
+<h2>Water</h2>
+
+<h3>2.0L / 4L</h3>
+
+<div class="progress">
+
+<div class="progress-fill water-fill"></div>
+
+</div>
+
+<a href="pages/water.html" class="btn">
+
+Open
+
+</a>
+
+</div>
+
+
+<!-- Card 2 -->
+
+<div class="card weight">
+
+<div class="icon">
+
+<i class="fa-solid fa-weight-scale"></i>
+
+</div>
+
+<h2>Weight</h2>
+
+<h3>53 KG</h3>
+
+<p>Last Updated Today</p>
+
+<a href="pages/weight.html" class="btn">
+
+Open
+
+</a>
+
+</div>
+
+
+<!-- Card 3 -->
+
+<div class="card sleep">
+
+<div class="icon">
+
+<i class="fa-solid fa-bed"></i>
+
+</div>
+
+<h2>Sleep</h2>
+
+<h3>7h 30m</h3>
+
+<p>Good Sleep</p>
+
+<a href="pages/sleep.html" class="btn">
+
+Open
+
+</a>
+
+</div>
+
+
+<!-- Card 4 -->
+
+<div class="card gym">
+
+<div class="icon">
+
+<i class="fa-solid fa-dumbbell"></i>
+
+</div>
+
+<h2>Gym</h2>
+
+<h3>Completed ✅</h3>
+
+<p>Keep Going</p>
+
+<a href="pages/gym.html" class="btn">
+
+Open
+
+</a>
+
+</div>
+
+
+<!-- Card 5 -->
+
+<div class="card mood">
+
+<div class="icon">
+
+<i class="fa-solid fa-face-smile"></i>
+
+</div>
+
+<h2>Mood</h2>
+
+<h3>😊 Happy</h3>
+
+<p>Stress Low</p>
+
+<a href="pages/mood.html" class="btn">
+
+Open
+
+</a>
+
+</div>
+
+
+<!-- Card 6 -->
+
+<div class="card goal">
+
+<div class="icon">
+
+<i class="fa-solid fa-bullseye"></i>
+
+</div>
+
+<h2>Today's Goal</h2>
+
+<ul>
+
+<li>💧 Drink 4L Water</li>
+
+<li>🏋 Gym</li>
+
+<li>😴 Sleep 8 Hours</li>
+
+<li>📚 Study 2 Hours</li>
+
+</ul>
+
+</div>
+</section>
+
+<section class="bottom-grid">
+
+    <div class="glass-card streak-card">
+        <h2>🔥 Current Streak</h2>
+        <h1>12 Days</h1>
+        <p>Keep going! You're doing great.</p>
     </div>
 
-    <script src="js/app.js"></script>
-    <script src="js/dashboard.js"></script>
+    <div class="glass-card quote-card">
+        <h2>💡 Today's Quote</h2>
+        <p>"Small progress every day leads to big results."</p>
+    </div>
+
+</section>
+
+</main>
+
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/dashboard.js"></script>
 
 </body>
 </html>
