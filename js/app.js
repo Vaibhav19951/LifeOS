@@ -1,1 +1,1 @@
-
+console.log("LifeOS Loaded 🚀");
